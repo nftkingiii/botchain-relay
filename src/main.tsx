@@ -1,4 +1,3 @@
-import '@fontsource-variable/instrument-sans';
 import '@fontsource/ibm-plex-mono/400.css';
 import '@fontsource/ibm-plex-mono/500.css';
 import React, { useCallback, useEffect, useMemo, useState, type FormEvent } from 'react';
@@ -151,7 +150,7 @@ function App(){
       setTx({kind:'confirmed',message:`${accepted?'Matched':'Mismatch'} receipt confirmed in block ${result.blockNumber}. This anchors submitted fields only; it does not prove funds moved.`,hash:result.hash,block:result.blockNumber});
       setReceipt(await readReceipt(active.invoiceId));
       void signer;
-    }catch(e){const x=e as {code?:number;message?:string};const rejected=x.code===4001||x.code==='ACTION_REJECTED';setTx({kind:rejected?'rejected':'error',message:rejected?'Wallet request rejected. No transaction was sent.':(x.message||'The receipt was not recorded.')});}
+   }catch(e){const x=e as {code?:number|string;message?:string};const rejected=x.code===4001||x.code==='ACTION_REJECTED';setTx({kind:rejected?'rejected':'error',message:rejected?'Wallet request rejected. No transaction was sent.':(x.message||'The receipt was not recorded.')});}
   }
   async function refreshCurrentReceipt(){if(active){setReceipt(null);await loadReceipt(active)}}
 
