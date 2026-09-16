@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" viewBox="0 0 720 460" fill="none">
+  <rect width="720" height="460" rx="14" fill="#E9EDEF"/>
+  <path d="M142 58h436a18 18 0 0 1 18 18v308a18 18 0 0 1-18 18H142a18 18 0 0 1-18-18V76a18 18 0 0 1 18-18Z" fill="#FCFDFD" stroke="#D8E0E2" stroke-width="2"/>
+  <path d="M124 127h472" stroke="#E5EAEB" stroke-width="2"/>
+  <rect x="153" y="82" width="38" height="38" rx="10" fill="#127C73"/>
+  <path d="M164 94h14a6 6 0 0 1 0 12h-6m0 0 11 9m-11-9-7 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="204" y="101" fill="#242A2C" font-family="Arial,sans-serif" font-size="17" font-weight="700">INVOICE INTENT</text>
+  <text x="204" y="117" fill="#78858A" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.8">DOCUMENT SPECIMEN · NOT PAYMENT EVIDENCE</text>
+  <text x="154" y="166" fill="#78858A" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.4">REFERENCE</text>
+  <text x="154" y="190" fill="#242A2C" font-family="monospace" font-size="18" font-weight="700">INV—24018</text>
+  <text x="465" y="166" fill="#78858A" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.4">STATUS</text>
+  <rect x="464" y="176" width="100" height="25" rx="12.5" fill="#F8EBCB"/>
+  <text x="478" y="193" fill="#815B0B" font-family="Arial,sans-serif" font-size="10" font-weight="700">AWAITING PROOF</text>
+  <text x="154" y="238" fill="#78858A" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.4">EXPECTED PAYER</text>
+  <text x="154" y="260" fill="#242A2C" font-family="Arial,sans-serif" font-size="14" font-weight="600">Northstar Studio (sample)</text>
+  <text x="154" y="300" fill="#78858A" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.4">EXPECTED RECIPIENT</text>
+  <text x="154" y="322" fill="#242A2C" font-family="Arial,sans-serif" font-size="14" font-weight="600">Morrow Supply (sample)</text>
+  <path d="M154 348h410" stroke="#E5EAEB" stroke-width="2" stroke-dasharray="4 6"/>
+  <text x="154" y="382" fill="#78858A" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.4">EXPECTED AMOUNT · INTEGER UNITS</text>
+  <text x="440" y="383" fill="#127C73" font-family="Arial,sans-serif" font-size="24" font-weight="700">2,450</text>
+</svg>
